@@ -4,7 +4,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -24,7 +23,6 @@ header nav a:hover {
     color: #38bdf8;
 }
 
-/* Hero */
 .hero {
     background: url("../images/vayuhouse6.jpeg") no-repeat center center/cover;
     height: 90vh;
@@ -49,7 +47,6 @@ header nav a:hover {
     border-radius: 5px;
 }
 
-/* Sections */
 .section {
     padding: 20px 40px;
     text-align: center;
@@ -103,4 +100,29 @@ footer {
 
 .logo-text {
     letter-spacing: 1px;
+}
+.property-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 80px;
+}
+
+.gallery-item {
+    flex: 1 1 250px;
+    max-width: 300px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
 }
