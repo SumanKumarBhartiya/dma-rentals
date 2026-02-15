@@ -10,7 +10,7 @@ import './styles/index.css';
 
 function App() {
   return (
-    <Router basename="/DMA-Rentals">
+    <Router basename="/dma-rentals">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
