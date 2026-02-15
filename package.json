@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sumankumarbhartiya.github.io/DMA-Rentals",
+  "homepage": "https://sumankumarbhartiya.github.io/dma-rentals",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
