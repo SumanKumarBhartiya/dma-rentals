@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/dma-rentals/',
+  base: 'https://sumankumarbhartiya.github.io/dma-rentals',
   plugins: [react(), tailwindcss()],
 })
