@@ -1,8 +1,4 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
-
 export default defineConfig({
-  base: '/DMA-Rentals/',
+  base: '/dma-rentals/',  // ← Must be lowercase with slashes!
   plugins: [react(), tailwindcss()],
 })
