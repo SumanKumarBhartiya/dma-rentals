@@ -8,7 +8,7 @@ import Properties from './pages/Properties';
 import Contact from './pages/Contact';
 import './styles/index.css';
 
-function App() {
+export default function App() {
   return (
     <Router basename="/dma-rentals">
       <div className="flex flex-col min-h-screen">
@@ -27,5 +27,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
